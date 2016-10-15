@@ -1,0 +1,21 @@
+{
+    "require":
+    {
+        "php"          : "7.*.*",
+        "srvlets/core" : "0.1.*"
+    },
+    "repositories":
+    [
+        {
+            "type" : "path",
+            "url"  : "../src/*"
+        }
+    ],
+    "autoload" :
+    {
+        "psr-4" :
+        {
+            "Srvlets\\" : "class"
+        }
+    }
+}

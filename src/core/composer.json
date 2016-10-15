@@ -1,0 +1,17 @@
+{
+    "name"    : "srvlets/core",
+    "version" : "0.1.0",
+    "require" :
+    {
+        "php"          : "7.*.*",
+        "ext-pthreads" : "3.*.*",
+        "ext-ev"       : "1.*.*"
+    },
+    "autoload" :
+    {
+        "psr-4" :
+        {
+            "Srvlets\\" : "class"
+        }
+    }
+}
